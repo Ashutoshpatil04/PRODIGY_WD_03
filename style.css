@@ -1,0 +1,64 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(45deg, #08001f, #30197d);
+    color: rgb(240, 231, 231);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: hsl(283, 72%, 18%);
+    padding: 35px;
+    width: 500px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+#stopwatchDuration {
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    padding: 20px;
+}
+
+.lapsButtons {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.lapsButtons button {
+   height: 35px; 
+   width: 25%;
+   border-radius: 5px;
+   background: orange;
+   border: none;
+   outline: none;
+   padding: 5px;
+   margin: 10px;
+   cursor: pointer;
+   font-size: 16px;
+}
+
+#laps {
+    height: 170px;
+    padding: 10px;
+    overflow: auto;
+}
+
+#laps li {
+   font-size: 22px;
+   padding: 10px; 
+}
+
+#stop,#reset{
+    background: red;
+}
+
